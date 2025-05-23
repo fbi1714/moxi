@@ -3,6 +3,8 @@ use embassy_nrf::{bind_interrupts, peripherals::{P0_26, P1_00, TWISPI0}, twim::{
 use embassy_time::{Delay, Timer};
 use libscd::asynchronous::scd4x::Scd4x;
 
+/// This is basically just an async version of the example code from
+/// Svetlin Zarev's `libscd` crate...
 #[embassy_executor::task]
 pub async fn sense_task(twi: TWISPI0, sda: P1_00, scl: P0_26) {
     bind_interrupts!(struct Irqs {
@@ -28,9 +30,9 @@ pub async fn sense_task(twi: TWISPI0, sda: P1_00, scl: P0_26) {
         if scd.data_ready().await.unwrap() {
             let m = scd.read_measurement().await.unwrap();
             info!(
-                "CO2: {}, Humidity: {}, Temperature: {}", 
+                "CO2: {}, Humidity: {}, Temperature: {}",
                 m.co2 as u16, m.humidity as u16, m.temperature as u16
-            );
+            )
         }
 
         Timer::after_millis(1000).await;

@@ -1,6 +1,6 @@
 # moxi
 
-This is the code for the YouTube video series, where we try to turn the microbit into an indoor air quality monitor. The code for the end of each episode is in its respective directory.
+This is the code for the YouTube video series ([part 1](https://youtu.be/vT4-bvHCbE0)), where we try to turn the microbit into an air quality monitor. The code for the end of each episode is in its respective directory.
 
 ## Prerequisites
 
