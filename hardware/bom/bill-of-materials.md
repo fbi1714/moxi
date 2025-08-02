@@ -26,3 +26,4 @@
 - Prices are approximate and may vary by supplier
 - Check for educational discounts on micro:bit
 - Consider buying multiple Grove cables for experimentation
+- [Microbit Hardware](https://tech.microbit.org/hardware/)
