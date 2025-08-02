@@ -91,6 +91,16 @@ The Moxi project implements environmental monitoring using a BBC micro:bit v2 wi
 - **SCD-40 Datasheet**: [Sensirion_CO2_Sensors_SCD4x_Datasheet.pdf](datasheets/Sensirion_CO2_Sensors_SCD4x_Datasheet.pdf)
 - **Adafruit SCD-40 Guide**: [adafruit-scd-40-and-scd-41.pdf](datasheets/adafruit-scd-40-and-scd-41.pdf)
 - **Additional References**: [datasheet-links.md](datasheets/datasheet-links.md)
+- **About BitMaker V2 Expansion Board**
+  - [3.2 BitMaker](https://www.yuque.com/tinkergen-help-en/microbit/bitmaker)
+
+  - [BitMaker | Seeed Studio Wiki](https://wiki.seeedstudio.com/BitMaker/)
+
+  - [Search results for: 'BitMaker JST 2.0'](https://www.seeedstudio.com/catalogsearch/result/?q=BitMaker+JST+2.0&warehouse=CN+Warehouse+In+Stock%2CCN+or+US+Warehouse+In+Stock%2CCN+or+DE+Warehouse+In+Stock)
+  - [CH_BitMaker_V2 - JST 2.0 battery connector & 6 Grove connectors - Seeed Studio](https://www.seeedstudio.com/CH-BitMaker-V2-p-5330.html)
+  - [BitMaker - Grove Expansion Board for Micro:bit (6 Grove ports) - Seeed Studio](https://www.seeedstudio.com/BitMaker-p-4353.html)
+  - [BitMaker Lite - Grove Expansion Board for Micro:bit (3 Grove Ports) - Seeed Studio](https://www.seeedstudio.com/BitMaker-Lite-p-4354.html)
+  - [CH_BitMaker_V2 - JST 2.0 battery connector & 6 Grove connectors - Seeed Studio](https://www.seeedstudio.com/CH-BitMaker-V2-p-5330.html)
 
 ### Assembly & Support
 
@@ -168,4 +178,3 @@ The Moxi project implements environmental monitoring using a BBC micro:bit v2 wi
 ---
 
 **Project Status**: Active development | **Last Updated**: August 2025 | **Version**: 0.1.0
-

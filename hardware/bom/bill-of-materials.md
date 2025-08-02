@@ -1,4 +1,4 @@
-# Bill of Materials
+# Bill of Materials is OUTDATED
 
 ## Required Components
 
